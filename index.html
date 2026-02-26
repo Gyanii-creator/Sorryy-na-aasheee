@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorry Bestie 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<div class="card">
+  <h1 id="title">Hey Bestie 🥺</h1>
+  <p id="message">
+    I know you're upset...<br>
+    And I really hate that I made you feel this way.<br>
+    You mean a lot to me 💗
+  </p>
+
+  <button class="btn" onclick="nextMessage()">Tap if you're still reading...</button>
+
+  <div class="choices hidden" id="choices">
+    <p class="question">Will you forgive me? 🥹</p>
+    <button class="yes" onclick="forgiven()">Yes 💞</button>
+    <button class="no" onmouseover="moveNo(this)">No 😤</button>
+  </div>
+
+  <p id="final" class="hidden"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
