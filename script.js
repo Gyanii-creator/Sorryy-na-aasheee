@@ -1,8 +1,8 @@
 function nextMessage() {
   document.getElementById("message").innerHTML =
-    "You're not just my bestie...<br>" +
-    "You're my safe place, my daily laughter, my favourite human. 💕<br><br>" +
-    "I messed up. But I really want to fix it.";
+    "You're not just my bestieeuueuee...<br>" +
+    "You're my safe place, my har din ki khushii, my all time favourite human. 💕<br><br>" +
+    "Mene kharab krdiyaa. But I really want to fix it.";
 
   document.getElementById("choices").classList.remove("hidden");
 }
